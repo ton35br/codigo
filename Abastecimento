@@ -1,0 +1,18 @@
+# include <stdio.h>
+# include <stdlib.h>
+main ( ) {
+     /*Solicite o preço do combustivel depois o valor em reais que o cliente ira abastecer
+     em um automovel que rende 12,5km/l, calcule quantos km sera possivel "rodar" com este 
+     abastecimento e a quantidade de litros
+     */
+     float a,b,d, p;
+     printf("Digite o preço da gasolina: ");
+     scanf("%f", &a);
+     printf("Digite o Valor Abastecido: ");
+     scanf("%f", &b);
+     d = b/a;
+     p = d*12.5;
+     printf("Sera abastecido o total de litros = %f\n", d);
+     printf("Este e o total de km a rodar = %f\n", p);
+     system("pause");
+     }
